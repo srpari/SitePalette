@@ -50,31 +50,158 @@ body,html {
     transition: all ease 0.3s;
 }
 
+
+
+/*========================SECTION WELCOME============================*/
+
+.section-welcome{
+	margin-top: 60px;
+	margin-left: 120px;
+	margin-right: 120px;	
+}
+
+h1 {	
+    text-transform: uppercase;
+	display: inline-block;
+	font-size: 32px;
+	letter-spacing: 2.5px;
+	text-shadow: 2px 2px rgba(160, 153, 153, 0.23);
+}
+
+h2{
+	width: 470px;
+	font-size: 35px;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+h3{
+	font-size: 18px;
+	font-weight: 400;
+	width: 470px;
+	display: inline-block;
+	margin-top:20px;
+	line-height: 25px;
+}
+
+
+.site-logo{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.top-left{
+  height: 20px;
+  width: 20px;	
+  background-color: #9e8bdb;	
+  display: inline-block;
+  position:absolute;
+  top: 180px;
+  border-top-left-radius: 4px; 
+  bottom:100px;
+}
+
+
+.low-left{
+  height: 20px;
+  width: 20px;	
+  background-color: #4dc0ea;	
+  display: inline-block;
+  border-bottom-left-radius: 4px; 
+  position: relative; 
+  top:  10px;
+}
+
+
+.top-right{
+  height: 20px;
+  width: 20px;	
+  background-color: #7c6cf2;	
+  display: inline-block;
+  position:absolute;
+  top:  180px;
+  left: 148px;	
+  border-top-right-radius: 4px;  
+}
+
+.low-right{
+  height: 20px;
+  width: 20px;	
+  background-color: #77a1e3;	
+  display: inline-block;
+  border-bottom-right-radius: 4px;
+  position: relative;
+  right: 3px;
+  top:  10px;
+}
+
+/*--------------Browsers-------------------------*/
+
+.browsers{
+	width: 450px;
+	height: 100px;
+	position: absolute;
+}
+
+
+.browsers_title{
+	font-size: 18px;
+	color: #806f6f;
+	letter-spacing: 1px;
+	display: inline-block;
+	position: relative;
+	top: 35px;
+	text-shadow: 1px 1px rgba(160, 153, 153, 0.23);
+}
+
+.browsers_list{
+	display: flex;
+	margin-left: 70px;
+	position: absolute;
+	top:10px;
+}
+
+li{
+   list-style: none;	
+}
+
+.browsers_item{
+	margin: 0 12px;
+}
+
+.browsers_link{
+	display: block;
+	height: 50px;
+	width: 50px;
+	background-repeat: no-repeat;
+    transition: all ease 0.2s;
+	display: block;
+}
+
+.chrome_link{	
+	background-image: url(img/chrome_logo.png);
+}
+
+.safari_link{	
+	background-image: url(img/safari_logo.png);
+}
+
+.firefox_link{	
+	background-image: url(img/firefox_logo.png);
+}
+
+.browsers_list li:hover{	
+    transform: translateY(-1.5px);
+    opacity: 0.85;
+}
+
 /*------------Responsive Web Design --------------*/
 
 
 @media only screen and (max-width: 860px) {
 	
-	.container{	height: 110px; }
-	
-	.head-text { font-size:18px; }
-	
-	.btn{	
-		display: block;	
-	    border-radius: 60px;		
-		width: 15%;
-		position: relative;
-		left: 38%;
-		font-size: 16px;
-		margin-top: 5px;
-	}
-	
-}
-
-
-@media only screen and (max-width: 798px) {
-	
-	.container{	height: 110px; }
+	.container{	height: 120px; }
 	
 	.head-text { font-size:18px; }
 	
@@ -83,9 +210,9 @@ body,html {
 	    border-radius: 60px;		
 		width: 16%;
 		position: relative;
-		left: 35%;
+		left: 38%;
 		font-size: 16px;
-		margin-top: 5px;
+		margin-top: 9px;
 	}
 	
 }
@@ -99,15 +226,15 @@ body,html {
 	.btn{	
 		display: block;	
 	    border-radius: 60px;		
-		width: 18%;
+		width: 17%;
 		position: relative;
-		left: 32%;
+		left: 38%;
 		font-size: 16px;
-		margin-top: 12px;
+		margin-top: 9px;
 	}
 }
 
-@media only screen and (max-width: 665px) {
+@media only screen and (max-width: 704px) {
 	
 	.container{	height: 120px; }
 	
@@ -116,6 +243,25 @@ body,html {
 	.btn{	
 		display: block;	
 	    border-radius: 60px;		
+		width: 17%;
+		position: relative;
+		left: 36%;
+		font-size: 14px;
+		margin-top: 10px;
+	}
+}
+
+
+
+@media only screen and (max-width: 627px) {
+	
+	.container{	height: 120px; }
+	
+	.head-text { font-size:17px; }
+	
+	.btn{	
+		display: block;	
+	    border-radius: 60px;		
 		width: 18%;
 		position: relative;
 		left: 32%;
@@ -125,39 +271,20 @@ body,html {
 }
 
 
-
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 594px) {
 	
-	.container{	height: 130px; }
+	.container{	height: 140px; }
 	
 	.head-text { font-size:17px; }
 	
 	.btn{	
 		display: block;	
 	    border-radius: 60px;		
-		width: 25%;
+		width: 20%;	
 		position: relative;
 		left: 30%;
 		font-size: 14px;
 		margin-top: 10px;
 	}
-}
-
-
-@media only screen and (max-width: 600px) {
-	
-	.container{	height: 130px; }
-	
-	.head-text { font-size:17px; }
-	
-	.btn{	
-		display: block;	
-	    border-radius: 60px;		
-		width: 25%;
-		position: relative;
-		left: 28%;
-		font-size: 14px;
-		margin-top: 10px;
-	}
-}
+}  
 
