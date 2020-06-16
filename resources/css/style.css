@@ -147,7 +147,6 @@ h3{
 	position: absolute;
 }
 
-
 .browsers_title{
 	font-size: 18px;
 	color: #806f6f;
@@ -160,7 +159,7 @@ h3{
 
 .browsers_list{
 	display: flex;
-	margin-left: 70px;
+	margin-left: 50px;
 	position: absolute;
 	top:10px;
 }
@@ -170,7 +169,8 @@ li{
 }
 
 .browsers_item{
-	margin: 0 12px;
+	margin: 0px;
+	padding-left: 10px;
 }
 
 .browsers_link{
@@ -364,7 +364,34 @@ ion-icon {
 	top: 30px;
 }
 
+/*===================== SECTION FOOTER=============================*/
 
+.section-footer{	
+	background-color: #292726;
+	padding-top:30px;
+	padding-bottom:30px;
+	height: 180px;
+}
+
+.footer_browsers{
+	position: absolute;
+	left:40%;
+}
+
+.footer_browsers .browsers_title{
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 2px;
+	position: relative;
+	right:30px;
+}
+
+.footer_copyright{
+	text-align: center;
+	padding-top: 150px;
+	font-size: 16px;
+	color: #fff;
+}
 
 /*------------Responsive Web Design --------------*/
 
